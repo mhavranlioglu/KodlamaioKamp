@@ -19,7 +19,8 @@ namespace ClassMetodDemo
 
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(customer);
-            customerManager.Add(customer);
+            customerManager.Delete(customer);
+            customerManager.List(customer);
         }
     }
 }
